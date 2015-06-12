@@ -18,7 +18,9 @@ update:
 
 	make gen
 
-	cd public && git add * && git commit -am "Website update" && git push --force origin HEAD:master
+	cd public && git add *
+	-cd public && git commit -am "Website update"
+	cd public && git push --force origin HEAD:master
 
 	make clean
 
