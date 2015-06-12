@@ -1,0 +1,33 @@
++++
+author = "illwieckz"
+comments = "false"
+date = "2015-10-26 12:00:00+00:00"
+title = "XQF 1.0.6.2 released!"
+categories = [ "News" ]
++++
+
+:baseurl: fake/../../..
+:imagesdir: {baseurl}/static/images
+:doctype: article
+:icons: font
+:idprefix:
+:sectanchors:
+:sectlinks:
+:sectnums!:
+:skip-front-matter:
+:last-update-label!:
+
+XQF 1.0.6.2 has been released! Please see the ChangeLog for full details and credits.
+
+Here is the list of what's new - some of which were only available previously by downloading the Git version:
+
+* New games: Unvanquished, Tremulous GPP, TremFusion, Xonotic, Smokin'Guns, Urban Terror, Alien Arena, Reaction, Q3 Rally, World of Padman, OpenArena, OpenTTD, Enemy Territory: Quake Wars, Enemy Territory: Legacy, ZEQ2 Lite, Jedi Outcast, Turtle Arena
+* Added scalable SVG icons
+* Added filter for Unvanquished, Wolfenstein: Enemy Territory and Savage extended color codes
+* Dropped GTK+1 support
+* Now follows XDG Base Directory Specification for user configuration directory and migrates the previously created directory
+* Workaround for non ASCII characters in servers strings (doesn't stop to refresh lists)
+* Rewrite of many deprecated calls (strings, channels…) and fixed many compilation issues
+* Improved French translation
+
+The repository has been migrated from CVS on SourceForge.net to Git on Github: https://github.com/XQF/xqf

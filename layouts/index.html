@@ -1,0 +1,20 @@
+{{partial "header.html" .}}
+<img src="/static/images/splash.png" width="200px"/>
+<br/>
+<br/>
+<p>XQF is a game server browser and launcher for Unix/X11 for many popular games such as the Quake series, Unreal Tournament series, Half-Life etc. XQF is a front-end to <a href="http://qstat.org">QStat</a>, a program by Steve Jankowski and uses the <a href="http://gtk.org/">GTK+</a> toolkit.</p>
+<p class="SectionTitle">News</p>
+{{ range first 7 (where .Data.Pages "Section" "news") }}
+<div id="NewsPost">
+	{{ .Date.Format "2 January 2006" }}
+	<hr />
+	<h3><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
+    <p>{{ .Content }}</p>
+	<br/>
+</div>
+{{ end }}
+<br/>
+<br/>
+<hr />
+<a href="/news-archive">Archived news</a>
+{{ partial "footer.html" . }}

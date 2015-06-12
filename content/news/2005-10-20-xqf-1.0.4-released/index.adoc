@@ -1,0 +1,30 @@
++++
+author = "Alex Burger"
+comments = "false"
+date = "2005-10-20 12:00:00+00:00"
+title = "XQF 1.0.4 released!"
+categories = [ "News" ]
++++
+
+:baseurl: fake/../../..
+:imagesdir: {baseurl}/static/images
+:doctype: article
+:icons: font
+:idprefix:
+:sectanchors:
+:sectlinks:
+:sectnums!:
+:skip-front-matter:
+:last-update-label!:
+
+XQF 1.0.4 has been released! Please see the ChangeLog for full details and credits.
+
+Here is the list of what's new - some of which were only available previously by downloading the CVS version:
+
+* New games: Nexuiz, Quake 4
+* Added Epic's second UT2004 master
+* Added new Finish translation
+* Added Q3A Excessive Plus game types
+* Now honors setting to ignore bots when copying server info to clipboard
+* Added support for plugin scripts
+* Added support for multiple sort modes per column

@@ -1,0 +1,177 @@
+/*
+www.linuxgames.com/xqf
+
+The layout for this page was [borrowed|stolen|abducted] from the kind
+folks at the Layout Reservoir. http://www.bluerobot.com/web/layouts/
+
+Here's the permission notice from the page on Oct 23, 2003:
+
+Please feel free to borrow, steal, abduct, and/or torture the documents
+contained in the Layout Reservoir. Though you need not give credit to
+BlueRobot.com, a comment in your source code would help other developers
+to find this resource. Enjoy.
+
+Some of this layout was also [borrowed|stolen|abducted] from a kind
+person (Nathan) from the Nagios site.  http://www.nagios.org
+*/
+
+body {
+  margin:0px;
+  padding:0px;
+  font-family:verdana, arial, helvetica, sans-serif;
+  font-size: 0.8em;
+  color:#eee;
+  background-color:black;
+}
+
+p {
+  margin:0 0 1em 0;
+  padding:0px;
+  line-height:125%;
+}
+
+a {
+  color:#09c;
+  font-size:0.9em;
+  text-decoration:none;
+  font-weight:600;
+  font-family:verdana, arial, helvetica, sans-serif;
+}
+a:link {
+  color:#09c;
+}
+a:visited {
+  color:#07a;
+}
+a:hover {
+  background-color:#eee;
+}
+#Menu a {
+  font-size:1.1em;
+}
+
+#skip {
+  display:none;
+}
+
+#HeaderBar {
+  margin:10px 0 10px 0px;
+  padding:10px 0 14px 20px;
+  /* For IE5/Win's benefit height = [correct height] + [top padding] + [top and bottom border widths] */
+  height:33px; /* 14px + 17px + 2px = 33px */
+  border-style:solid;
+  /* border-color:#999; */
+  border-color:#fefd00;
+  border-width:2px 0; /* top and bottom borders: 1px; left and right borders: 0px */
+  color: #fff;
+  line-height:11px;
+  background-color:#555555;
+  font-family: verdana,arial,serif;
+  font-size: 2em;
+  font-weight: bold;
+
+  /* Ugly brilliant hack removed - messed up Konqueror.  Just set height anyways otherwise ie6 messed up */
+  height:14px; /* the correct height */
+}
+
+/* I've heard this called the "be nice to Opera 5" rule. Basically, it feeds correct
+length values to user agents that exhibit the parsing error exploited above yet get
+the CSS box model right and understand the CSS2 parent-child selector. ALWAYS include
+a "be nice to Opera 5" rule every time you use the Tantek Celik hack (above). */
+body>#HeaderBar {
+  height:14px;
+}
+
+#Content {
+  margin:0px 50px 0px 200px;
+  padding:10px;
+}
+
+#LeftSide {
+  position:absolute;
+  top:75px;
+  left:20px;
+  width:172px;
+  line-height:17px;
+/* Here is the ugly brilliant hack that protects IE5/Win from its own stupidity.
+Thanks to Tantek Celik for the hack and to Eric Costello for publicizing it.
+IE5/Win incorrectly parses the "\"}"" value, prematurely closing the style
+declaration. The incorrect IE5/Win value is above, while the correct value is
+below. See http://glish.com/css/hacks.asp for details. */
+  voice-family: "\"}\"";
+  voice-family:inherit;
+  width:150px;
+}
+/* Again, "be nice to Opera 5". */
+body>#LeftSide {
+  width:150px;
+}
+
+#Menu {
+  padding:10px;
+  background-color:#000;
+  border:1px ridge #999;
+}
+/* Again, "be nice to Opera 5". */
+body>#Menu {
+  width:150px;
+}
+
+#NavLogos {
+  text-align: center
+}
+
+#ModificationDate {
+  margin:0px 50px 20px 200px;
+}
+
+.Copyright {
+  font-family: verdana,arial,serif;
+  font-size: 1em;
+}
+
+.Email {
+  font-family: verdana,arial,serif;
+  font-size: 0.85em;
+}
+
+.NewsItem {
+  font-family: verdana,arial,serif;
+  font-size: 0.8em;
+}
+
+.NewsItemDate {
+  font-family: verdana,arial,serif;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+#NewsPost {
+    font-weight: bold;
+}
+
+.SectionTitle {
+  font-family: verdana,arial,serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.SectionBody {
+  font-family: verdana,arial,serif;
+  font-size: 0.8em;
+}
+
+.ModificationDate {
+  font-family: verdana,arial,serif;
+  font-size: 0.7em;
+}
+
+.HeaderSmall {
+  font-family: verdana,arial,serif;
+  font-size: 0.42em;
+}
+
+.ulist p {
+    margin-bottom: 0;
+}

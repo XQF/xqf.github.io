@@ -1,0 +1,33 @@
++++
+author = "Alex Burger"
+comments = "false"
+date = "2004-12-23 12:00:00+00:00"
+title = "XQF 1.0.2 released!"
+categories = [ "News" ]
++++
+
+:baseurl: fake/../../..
+:imagesdir: {baseurl}/static/images
+:doctype: article
+:icons: font
+:idprefix:
+:sectanchors:
+:sectlinks:
+:sectnums!:
+:skip-front-matter:
+:last-update-label!:
+
+XQF 1.0.2 has been released! Please see the ChangeLog for full details and credits.
+
+Here is the list of what's new - some of which were only available previously by downloading the CVS version:
+
+* New games: Netpanzer
+* Support for Gslist (http://aluigi.altervista.org/papers.htm#gslist)
+* Automatic detection of the Doom3 network protocol version
+* Check osmask of Doom3 servers and warn if the server has no Linux support
+* Configurable qstat source ip and port range for people with broken NAT
+* Contry statistics for game servers
+* Additional Descent3 server listing
+* UT2004 Master support (requires qstat 2.7)
+* xqf-rcon uses $XQF_RCON_PASSWORD for the rcon password if set
+* Various bugfixes as usual

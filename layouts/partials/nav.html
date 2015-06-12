@@ -1,0 +1,8 @@
+<div id="LeftSide">
+	<div id="Menu">
+		{{ $currentNode := . }}
+		{{ range .Site.Menus.nav }}
+		<a class="Nav{{ if $currentNode.IsMenuCurrent "nav" . }} active{{end}}" href="{{.URL}}">{{ .Name }}</a><br/>
+		{{end}}
+	</div>
+</div>

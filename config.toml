@@ -1,0 +1,65 @@
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+baseurl = "https://xqf.github.io"
+canonifyurls = "false"
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
+[asciidoctor]
+    safe = "0"
+
+[menu]
+[[menu.nav]]
+	weight = "1"
+	name = "Home"
+	url = "/"
+[[menu.nav]]
+	weight = "2"
+	name = "About"
+	url = "/about"
+[[menu.nav]]
+	weight = "3"
+	name = "Downloads"
+	url = "/downloads"
+[[menu.nav]]
+	weight = "4"
+	name = "Screenshots"
+	url = "/screenshots"
+[[menu.nav]]
+	weight = "5"
+	name = "VCS"
+	url = "https://github.com/xqf/xqf"
+[[menu.nav]]
+	weight = "6"
+	name = "Change Log"
+	url = "/changelog"
+[[menu.nav]]
+	weight = "7"
+	name = "Documentation"
+	url = "/docs"
+[[menu.nav]]
+	weight = "8"
+	name = "FAQs"
+	url = "/docs#Troubleshooting"
+[[menu.nav]]
+	weight = "9"
+	name = "Mailing Lists"
+	url = "/mailinglists"
+[[menu.nav]]
+	weight = "10"
+	name = "Message Forum"
+	url = "http://www.3dforums.com/?action=forumpage&loc=49&forum_id=157"
+[[menu.nav]]
+	weight = "11"
+	name = "Links"
+	url = "/links"
+[[menu.nav]]
+	weight = "12"
+	name = "Support"
+	url = "/support"
+[[menu.nav]]
+	weight = "13"
+	name = "License"
+	url = "/license"

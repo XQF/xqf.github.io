@@ -1,0 +1,22 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head profile="http://www.w3.org/2005/10/profile">
+	<link rel="icon" type="image/png" href="/favicon.png" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="Keywords" content="xqf,linux,game,launcher,qstat,qstat front-end,qstat frontend" />
+
+	{{ if .Title }}
+		<title> {{ .Title }} - XQF</title>
+	{{ else }}
+		<title>XQF Game Server Browser</title>
+	{{ end }}
+
+	{{ partial "includes.html" . }}
+</head>
+<body>
+	<div id="HeaderBar">
+	      <img align="left" vspace="0" hspace="0" width="266" height="24" border="0" src="static/images/xqf-text-solid.png" alt="XQF" />
+	</div>
+{{ partial "nav.html" . }}
+	<div id="Content">

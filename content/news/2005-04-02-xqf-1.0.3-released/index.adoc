@@ -1,0 +1,32 @@
++++
+author = "Alex Burger"
+comments = "false"
+date = "2005-04-02 12:00:00+00:00"
+title = "XQF 1.0.3 released!"
+categories = [ "News" ]
++++
+
+:baseurl: fake/../../..
+:imagesdir: {baseurl}/static/images
+:doctype: article
+:icons: font
+:idprefix:
+:sectanchors:
+:sectlinks:
+:sectnums!:
+:skip-front-matter:
+:last-update-label!:
+
+XQF 1.0.3 has been released! Please see the ChangeLog for full details and credits.
+
+Here is the list of what's new - some of which were only available previously by downloading the CVS version:
+
+* New games: Half-Life 2 (wine)
+* All icons are now themeable
+* Now uses GTK2 colors and Raleigh theme by default in GTK1 version
+* Added --nomapscan command line parameter
+* Fixed UT2004 and Doom3 master query not working after starting XQF
+* Fixed saving of Quake2 passwords
+* Fixed Doom3 protocol detection
+* Fixed Q1/QW/Q2 skin list update
+* Fixed crashes in GTK2 version
