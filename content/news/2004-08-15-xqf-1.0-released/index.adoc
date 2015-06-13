@@ -5,7 +5,9 @@ date = "2004-08-15 12:00:00+00:00"
 title = "XQF 1.0 released!"
 categories = [ "News" ]
 +++
-
+= XQF 1.0 released!
+Ludwig Nussel <https://github.com/user/lnussel[@lnussel]>
+15 August 2004
 :baseurl: fake/../../..
 :imagesdir: {baseurl}/static/images
 :doctype: article

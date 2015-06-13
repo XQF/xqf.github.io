@@ -34,7 +34,7 @@ canonifyurls = "false"
 [[menu.nav]]
 	weight = "6"
 	name = "Change Log"
-	url = "/changelog"
+	url = "/docs/changelog"
 [[menu.nav]]
 	weight = "7"
 	name = "Documentation"

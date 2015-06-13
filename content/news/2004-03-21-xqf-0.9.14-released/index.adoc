@@ -1,11 +1,13 @@
 +++
 author = "Alex Burger"
 comments = "false"
-date = "2004-08-15 12:00:00+00:00"
-title = "XQF 1.0 released!"
+date = "2004-03-21 12:00:00+00:00"
+title = "XQF 0.9.14 released!"
 categories = [ "News" ]
 +++
-
+= XQF 0.9.14 released!
+Ludwig Nussel <https://github.com/user/lnussel[@lnussel]>
+21 March 2004
 :baseurl: fake/../../..
 :imagesdir: {baseurl}/static/images
 :doctype: article

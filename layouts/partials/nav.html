@@ -2,7 +2,7 @@
 	<div id="Menu">
 		{{ $currentNode := . }}
 		{{ range .Site.Menus.nav }}
-		<a class="Nav{{ if $currentNode.IsMenuCurrent "nav" . }} active{{end}}" href="{{.URL}}">{{ .Name }}</a><br/>
+		<li><a class="Nav{{ if $currentNode.IsMenuCurrent "nav" . }} active{{end}}" href="{{.URL}}">{{ .Name }}</a></li>
 		{{end}}
 	</div>
 </div>
