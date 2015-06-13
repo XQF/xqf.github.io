@@ -1,0 +1,21 @@
+:last-update-label!:
+== Support
+=== Getting Help
+Please consult link:/docs[XQF Documentation] and link:/docs#troubleshooting[FAQ]. Feel free to visit our link:http://webchat.freenode.net?channels=%23xqf[IRC] and link:xmpp://xqf@conference.jabber.ru[XMPP] conferences in case you need help.
+
+=== Bugs, feature requests, patches
+Please submit bug reports, feature requests, and patches using the link:https://github.com/xqf/xqf/issues[GitHub issue tracker].
+
+**XQF was originally written by link:mailto:roma@botik.ru[Roman Pozlevich] and is currently maintained by:**
+
+* Ludwig Nussel <l-n@users.sourceforge.net>
+* Alex Burger <alex_b@users.sourceforge.net>
+* Jordi Mallach <jordi@sindominio.net>
+* Thomas Debesse <xqf@illwieckz.net>
+
+=== Thanks to
+* Max Kovalenko <madmax@botik.ru> -- Extensive testing, Ideas
+* Heinrich Langos <heinrich@zaphod.wh9.tu-dresden.de> -- Ideas, Testing, Mirror Site
+* Niklas Paulsson <niklas@student.adb.gu.se> -- Solaris 2.6 port
+* Daniel O'Connor <doconnor@gsoft.com.au> -- FreeBSD port
+* Pete Toscano <pete@bubba.psi.com> -- Initial DNS support

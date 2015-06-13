@@ -42,24 +42,16 @@ canonifyurls = "false"
 [[menu.nav]]
 	weight = "8"
 	name = "FAQs"
-	url = "/docs#Troubleshooting"
+	url = "/docs#troubleshooting"
 [[menu.nav]]
 	weight = "9"
-	name = "Mailing Lists"
-	url = "/mailinglists"
-[[menu.nav]]
-	weight = "10"
-	name = "Message Forum"
-	url = "http://www.3dforums.com/?action=forumpage&loc=49&forum_id=157"
-[[menu.nav]]
-	weight = "11"
 	name = "Links"
 	url = "/links"
 [[menu.nav]]
-	weight = "12"
+	weight = "10"
 	name = "Support"
 	url = "/support"
 [[menu.nav]]
-	weight = "13"
+	weight = "11"
 	name = "License"
 	url = "/license"

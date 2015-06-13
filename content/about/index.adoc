@@ -1,0 +1,19 @@
+:last-update-label!:
+== About
+
+XQF is a game server browser and launcher for Unix/X11 for many popular games such as the Quake series, Unreal Tournament series, Half-Life etc. XQF is a front-end to http://qstat.org/[QStat], a program by Steve Jankowski and uses the http://gtk.org/[GTK+] toolkit.
+
+=== Features
+
+* Supports Americas Army, BF1942(wine), Descent 3, Doom 3, Half-Life, Half-Life 2(wine), Heretic 2, Hexen 2, HexenWorld, Jedi Academy(wine), Kingpin, Netpanzer, Nexuiz, Postal2, Quake, QuakeWorld, Quake2, Quake3: Arena, Quake 4, Rune, Sin, Soldier of Fortune, Soldier of Fortune 2, Tribes 2, Unreal Tournament, Unreal Tournament 2003/2004, Voyager Elite Force, Wolfenstein (RTCW), Enemy Territory, America's Army, Savage, Medal of Honor, Call of Duty, Unvanquished, Tremulous GPP, TremFusion, Xonotic, Smokin'Guns, Urban Terror, Alien Arena, Reaction, Q3 Rally, World of Padman, OpenArena, OpenTTD, Enemy Territory: Quake Wars, Enemy Territory: Legacy, ZEQ2 Lite, Jedi Outcast, Turtle Arena, Generic Gamspy games
+* Uses http://qstat.org[QStat] to communicate with masters/servers
+* Master lists supported: Standard (game specific), Gamespy / UT style, http, LAN and local file
+* Displays server rules and player info
+* Players and servers sorting
+* Favorite servers list
+* Simple filtering for servers
+* Player Filter (Buddy Lists)
+* Player name, color, skin and model selection
+* QuakeWorld skin visualization with coloring
+* Decodes and displays extended bit-field server flags (dmfalgs, teamplay, etc...)
+* Remote server administration tool (rcon) for QuakeWorld, HexenWorld Quake2, Quake3: Arena, Sin, Half-Life, Kingpin, Heretic2
