@@ -1,0 +1,167 @@
+/*
+www.linuxgames.com/xqf
+
+The layout for this page was [borrowed|stolen|abducted] from the kind
+folks at the Layout Reservoir. http://www.bluerobot.com/web/layouts/
+
+Here's the permission notice from the page on Oct 23, 2003:
+
+Please feel free to borrow, steal, abduct, and/or torture the documents
+contained in the Layout Reservoir. Though you need not give credit to
+BlueRobot.com, a comment in your source code would help other developers
+to find this resource. Enjoy.
+
+Some of this layout was also [borrowed|stolen|abducted] from a kind
+person (Nathan) from the Nagios site.  http://www.nagios.org
+*/
+
+
+body {
+  margin:0px;
+  padding:0px;
+  font-family: "Ubuntu";
+  font-size: 0.8em;
+  color:#eee;
+  background-color:black;
+}
+
+p {
+  margin:0 0 1em 0;
+  padding:0px;
+  line-height:125%;
+}
+
+a {
+  color:#0ad;
+  font-size:0.9em;
+  text-decoration:none;
+  font-family:verdana, arial, helvetica, sans-serif;
+}
+
+a:not(.nav) {
+    font-weight:600;
+}
+
+a:link {
+  color:#0ad;
+}
+a:hover {
+    background-color:#eee;
+    color:#07a;
+}
+
+#Menu li a {font-size:1.1em; display: block;}
+#Menu li {list-style-type: none;}
+#Menu li:hover {background-color:#eee;}
+
+#skip {
+  display:none;
+}
+
+#HeaderBar {
+  margin:10px 0 10px 0px;
+  padding:10px 0 14px 20px;
+  border-style:solid;
+  border-color:#fefd00;
+  border-width:2px 0; /* top and bottom borders: 1px; left and right borders: 0px */
+  color: #fff;
+  line-height:11px;
+  background-color:#555555;
+  font-family: verdana,arial,serif;
+  font-size: 2em;
+  font-weight: bold;
+  height:14px; /* the correct height */
+}
+
+#MainContent {
+  margin:0px 50px 0px 200px;
+  padding:10px;
+}
+
+#LeftSide {
+  position:absolute;
+  top:75px;
+  left:20px;
+  width:172px;
+  line-height:17px;
+  width:150px;
+}
+
+#Menu {
+  padding:10px;
+  background-color:#000;
+  border:1px ridge #999;
+}
+
+#NavLogos {
+  text-align: center
+}
+
+li>p {
+    margin-bottom: 0;
+}
+
+/* Section titles */
+
+h1, h2, h3, h4, h5, h6, .title {
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+h2, h3, h4, h5, h6 {
+    margin-top: 1.0em;
+    margin-bottom: 0.5em;
+}
+
+h1 {font-size: 3.0em;}
+#NewsPost>*>h1{font-size: 2em;}
+
+h2, .title {font-size: 2.0em;}
+
+h3 {font-size: 1.5em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.3em;}
+h6 {font-size: 1.2em;}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* Code blocks */
+
+code {
+    font-size: 1.4em;
+    padding: 0.2em;
+    background-color: rgb(35, 35, 35);
+}
+
+/* Block margins */
+
+p {margin-bottom: 1.25em;}
+
+.listingblock {
+    margin-left: 2em;
+}
+
+:not(#preamble)>.sectionbody {
+    margin-left: 2.5em;
+}
+
+.toc {
+    margin-top: 2em;
+}
+
+/* Customizations */
+#header>h1:first-child{margin-top:0rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #ddddd8}
+/*#header h1 {border-top: 1px solid #ddddd8;}*/
+#header .details{border-bottom:1px solid #ddddd8;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;display:flex;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details br{display:none}
+#header .details br+span:before{content:"\00a0\2013\00a0"}
+#header .details br+span.author:before{content:"\00a0\22c5\00a0"}
+#header .details br+span#revremark:before{content:"\00a0|\00a0"}
+
+#content {
+    margin-top: 1.25em;
+}
