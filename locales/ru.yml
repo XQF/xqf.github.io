@@ -1,0 +1,40 @@
+---
+  ru:
+    slogan: "Обозреватель игровых серверов XQF"
+
+    nav:
+      home:
+        title: "Начало"
+      about:
+        title: "О программе"
+      downloads:
+        title: "Загрузки"
+      screenshots:
+        title: "Скриншоты"
+      vcs:
+        title: "Центр разработки"
+      changelog:
+        title: "Список изменений"
+      docs:
+        title: "Документация"
+        fulltitle: "Обозреватель игровых серверов XQF 1.6.0.2"
+      faqs:
+        title: "ЧаВо"
+      links:
+        title: "Ссылки"
+      support:
+        title: "Поддержка"
+      license:
+        title: "Лицензия"
+
+    index:
+      description: "XQF - обозреватель игровых серверов под Unix для таких популярных игр как Quake, Unreal Tournament, Half-Life и т.д.. XQF является фронт-эндом для <a href='http://qstat.org'>QStat</a>, программы Стива Янковского, и использует тулкит <a href='http://gtk.org/'>GTK+</a>."
+      news:
+        title: "Новости"
+
+    news:
+      backtoindex: "Назад"
+
+    screenshots:
+      main: "Главное окно"
+      games: "Настройки игр"
