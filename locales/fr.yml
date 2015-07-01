@@ -1,0 +1,40 @@
+---
+  fr:
+    slogan: "Explorateur de server de jeu XQF"
+
+    nav:
+      home:
+        title: "Accueil"
+      about:
+        title: "À propos"
+      downloads:
+        title: "Téléchargements"
+      screenshots:
+        title: "Copies d’écran"
+      vcs:
+        title: "VCS"
+      changelog:
+        title: "Changelog"
+      docs:
+        title: "Documentation"
+        fulltitle: "Explorateur de server de jeu XQF 1.6.0.2"
+      faqs:
+        title: "FAQ"
+      links:
+        title: "Liens"
+      support:
+        title: "Support"
+      license:
+        title: "Licence"
+
+    index:
+      description: "XQF est un explorateur de server de jeu et lanceur sous Unix/X11 pour de nombreux jeux populaires comme les séries Quake, Unreal Tournament, Half-Life etc. XQF est une interface à <a href='http://qstat.org'>QStat</a>, un programme par Steve Jankowski et utilise la bibliothèque <a href='http://gtk.org/'>GTK+</a>."
+      news:
+        title: "Nouvelles"
+
+    news:
+      backtoindex: "Retour à l’index"
+
+    screenshots:
+      main: "Fenêtre principale"
+      games: "Configuration des jeux"
