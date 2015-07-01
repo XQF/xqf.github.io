@@ -1,0 +1,38 @@
+---
+layout: "news"
+author: "Ludwig Nussel"
+nick: "lnussel"
+profile: "https://github.com/user/lnussel"
+comments: "false"
+date: "2004-08-15 12:00:00+00:00"
+title: "XQF 1.0 released!"
+tags:
+  - "News"
+  - "Release"
+---
+:baseurl: fake/../../..
+:imagesdir: {baseurl}/static/images
+:doctype: article
+:icons: font
+:idprefix:
+:sectanchors:
+:sectlinks:
+:sectnums!:
+:skip-front-matter:
+:last-update-label!:
+
+After six and a half years of development, version 1.0 of XQF has been released!
+
+Here is the list of what's new - some of which were only available previously by downloading the CVS version:
+
+* New games: Doom3, Jedi Academy (wine)
+* Redial understands free private slots and won't connect to password protected servers if there is no password defined by the user
+* Support for the Half-Life steam master
+* Support for Americas Army 2.1
+* Export the variables XQF_SERVER_NAME, XQF_SERVER_MAP, XQF_SERVER_HOSTNAME and XQF_SERVER_GAME when launching a game
+* Custom arguments for RedOrchestra, Troopers, AlienSwarm UT2004 mods
+* Animated tray icon for the GTK2 version
+* Quake 3 gametypes for World of Padman
+* Copy/Copy+ also copies to the CLIPBOARD instead of only PRIMARY to allow paste via CTRL-v
+* Quick Filter
+* Requires qstat 2.6

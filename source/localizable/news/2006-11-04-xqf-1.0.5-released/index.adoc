@@ -1,0 +1,39 @@
+---
+layout: "news"
+author: "Ludwig Nussel"
+nick: "lnussel"
+profile: "https://github.com/user/lnussel"
+comments: "false"
+date: "2006-11-04 12:00:00+00:00"
+title: "XQF 1.0.5 released!"
+tags:
+  - "News"
+  - "Release"
+---
+:baseurl: fake/../../..
+:imagesdir: {baseurl}/static/images
+:doctype: article
+:icons: font
+:idprefix:
+:sectanchors:
+:sectlinks:
+:sectnums!:
+:skip-front-matter:
+:last-update-label!:
+
+XQF 1.0.5 has been released! Please see the ChangeLog for full details and credits.
+
+Here is the list of what's new - some of which were only available previously by downloading the CVS version:
+
+* new games: Warsow, Tremulous
+* fix Quake 4 RCON
+* add "Show only configured games" button again
+* fix SOF2 query
+* add new America's Army master server
+* support copying server info values to clipboard
+* fix build with newer GTK2 versions
+* don't pass -steam option to hl2 anymore
+* fix cursor navigation in server list
+* allow to also delete servers that are not in the Favorites list
+* split Half-Life support into old and new version
+* new Polish translation

@@ -1,0 +1,21 @@
+= wrap_layout 'base_content' do
+
+	#header
+		h1
+			= I18n.t(current_page.data.title)
+		.details
+			span.author#author
+				= current_page.data.author
+			br
+			span.email#email
+				a href="#{current_page.data.profile}"
+					| @#{current_page.data.nick}
+			br
+			span#revdate
+				= current_page.date.strftime("%d %B %Y")
+	#content
+    = yield
+
+	a.previous href="/news"
+		span.fa.fa-arrow-left>
+		b = I18n.t('news.backtoindex')

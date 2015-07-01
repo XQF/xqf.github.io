@@ -1,0 +1,22 @@
+doctype html
+html.no-js lang="#{I18n.locale}"
+	head
+		link rel="icon" type="image/png" href="/images/favicon.png"
+		meta name="viewport" content="width=device-width, initial-scale=1.0"
+		meta name="Keywords" content="xqf,linux,game,launcher,qstat,qstat front-end,qstat frontend"
+
+		- if current_page.data.title
+			title
+				=> I18n.t(current_page.data.title)
+				| - XQF
+		- else
+			title
+				= I18n.t('slogan')
+
+		= partial "includes"
+
+	body
+		#HeaderBar
+		  img width="266" height="24" src="/images/xqf-text-solid.png" alt="XQF"
+
+		= partial "nav"

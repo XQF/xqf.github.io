@@ -1,0 +1,37 @@
+---
+layout: "news"
+author: "Ludwig Nussel"
+nick: "lnussel"
+profile: "https://github.com/user/lnussel"
+comments: "false"
+date: "2004-03-21 12:00:00+00:00"
+title: "XQF 0.9.14 released!"
+tags:
+  - "News"
+  - "Release"
+---
+:baseurl: fake/../../..
+:imagesdir: {baseurl}/static/images
+:doctype: article
+:icons: font
+:idprefix:
+:sectanchors:
+:sectlinks:
+:sectnums!:
+:skip-front-matter:
+:last-update-label!:
+
+XQF 0.9.14 has been released! Please see the ChangeLog for full details and credits.
+
+Here is the list of what's new - some of which were only available previously by downloading the CVS version:
+
+* New games: UT2004, Postal2, BF1942(wine). All without official master.
+* Improved --launch parameter. Now only requires IP address and asks for type if needed. It's possible now to use this together with e.g. XChat.
+* Add --add parameter to just add a server to favorites
+* Fix LAN browsing
+* Add LAN masters by default
+* Support password on Savage servers
+* New server properties: Comment and "this server sucks"
+* Add exec function for Hexenworld (anyone ever played that game?)
+* Switch to intltool for i18n
+* Install desktop files

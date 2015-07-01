@@ -1,0 +1,40 @@
+---
+  en:
+    slogan: "XQF Game Server Browser"
+
+    nav:
+      home:
+        title: "Home"
+      about:
+        title: "About"
+      downloads:
+        title: "Downloads"
+      screenshots:
+        title: "Screenshots"
+      vcs:
+        title: "VCS"
+      changelog:
+        title: "Changelog"
+      docs:
+        title: "Documentation"
+        fulltitle: "XQF Game Server Browser 1.6.0.2"
+      faqs:
+        title: "FAQs"
+      links:
+        title: "Links"
+      support:
+        title: "Support"
+      license:
+        title: "License"
+
+    index:
+      description: "XQF is a game server browser and launcher for Unix/X11 for many popular games such as the Quake series, Unreal Tournament series, Half-Life etc. XQF is a front-end to <a href='http://qstat.org'>QStat</a>, a program by Steve Jankowski and uses the <a href='http://gtk.org/'>GTK+</a> toolkit."
+      news:
+        title: "News"
+
+    news:
+      backtoindex: "Back to index"
+
+    screenshots:
+      main: "Main Window"
+      games: "Games Settings"

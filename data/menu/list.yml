@@ -1,0 +1,44 @@
+-
+  id: 'nav.home.title'
+  pre: ""
+  url: "/"
+-
+  id: 'nav.about.title'
+  pre: ""
+  url: "/about/"
+-
+  id: 'nav.downloads.title'
+  pre: ""
+  url: "/downloads/"
+-
+  id: 'nav.screenshots.title'
+  pre: ""
+  url: "/screenshots/"
+-
+  id: 'nav.vcs.title'
+  pre: ""
+  url: "/vcs/"
+-
+  id: 'nav.changelog.title'
+  pre: ""
+  url: "/docs/changelog/"
+-
+  id: 'nav.docs.title'
+  pre: ""
+  url: "/docs/"
+-
+  id: 'nav.faqs.title'
+  pre: ""
+  url: "/docs#troubleshooting/"
+-
+  id: 'nav.links.title'
+  pre: ""
+  url: "/links/"
+-
+  id: 'nav.support.title'
+  pre: ""
+  url: "/support/"
+-
+  id: 'nav.license.title'
+  pre: ""
+  url: "/license/"

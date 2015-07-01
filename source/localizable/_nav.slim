@@ -1,0 +1,13 @@
+ruby:
+	def nav_current
+		@entry_url == current_page.url ? {tag: 'a', class: 'nav active'} : {tag: 'a', class: 'nav'}
+	end
+
+#LeftSide
+	#Menu
+		- data.menu.list.each do |entry|
+			li
+				- @entry_url = "/#{I18n.locale}#{entry[:url]}"
+				*nav_current href="#{@entry_url}"
+					=> entry[:pre]
+					= I18n.t(entry[:id])

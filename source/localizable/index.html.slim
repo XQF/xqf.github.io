@@ -1,0 +1,36 @@
+img src="/images/splash.png" width="200px"
+
+br
+br
+p
+  = I18n.t('index.description')
+
+h3
+  = I18n.t('index.news.title')
+
+- blog.articles[0...10].each do |article|
+  #NewsPost
+    #header
+  		h1
+  			= article.title
+  		.details
+  			span.author#author
+  				= article.data.author
+  			br
+  			span.email#email
+  				a href="#{current_page.data.profile}"
+  					| @#{article.data.nick}
+  			br
+  			span#revdate
+  				= article.date.strftime("%d %B %Y")
+    #content
+      p
+        = article.body
+	br
+
+br
+br
+hr
+
+a href="/news-archive"
+  Archived news

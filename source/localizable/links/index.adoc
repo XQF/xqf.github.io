@@ -1,0 +1,16 @@
+---
+title: 'nav.links.title'
+---
+:last-update-label!:
+== Linux gaming sites
+* http://linuxgames.com/[Linux Games]
+* http://linuxgaming.co.uk/[Linux Gaming UK]
+* http://holarse.net/[Holarse - Spielen Unter Linux]
+* http://happypenguin.org/[The Linux Game Tome]
+* http://icculus.org/[Icculus.org]
+
+== Other sites
+* http://qstat.org/[QStat]
+* http://doug.freeshell.org/xqf-xchat/[XQF -> XChat]
+* http://icculus.org/lgfaq/[Icculus.org - The Linux Gamers' FAQ]
+* http://agsm.net/[aGSM (alternative Game Server Monitor) for Windows]
