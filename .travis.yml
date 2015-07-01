@@ -1,0 +1,19 @@
+language: ruby
+
+rvm:
+- 2.1.2
+
+before_install:
+  - sudo -s tools/travis_update_packages.sh
+
+script:
+  - git config --global user.email "xqf-traviscibot@illwieckz.net"
+  - git config --global user.name "XQFTravisCIBot"
+  - bundle install --path vendor/bundle
+  - bundle exec middleman build --verbose
+  - bundle exec middleman deploy
+
+notifications:
+  irc: "chat.freenode.net#xqf"
+  on_success: change
+  on_failure: always
